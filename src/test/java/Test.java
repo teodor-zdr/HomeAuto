@@ -17,7 +17,7 @@ public class Test {
     @BeforeClass
     public void setUp() throws Exception
     {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Teodor\\Documents\\Automation\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\apps\\Automation\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
